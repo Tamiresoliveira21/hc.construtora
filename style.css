@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    box-sizing: border-box;
+}
+
+
+h1,h2,h3{
+    color:black;
+}
+
+p{
+    color:rgb(22, 20, 20);
+}
+
+
+
+
+.nav-container{
+    width: 100%;
+    height: 80px;
+    background-color: brown;
+    padding: 0 2rem;
+}
+
+nav{
+    position:relative;
+}
+
+.logo{
+    width:50px;
+    margin-top: 15px;
+}
+
+.nav-items{
+    position: absolute;
+    right: 0;
+    height: 80px;
+    line-height: 80px;
+    margin:0;
+display:inline-block;
+}
+
+.nav-items li{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+
+.nav-items a{
+    color:white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.nav-items a:hover{
+    color:rgb(207, 148, 60);
+}
+
+.default-btn{
+    padding: 15px 20px;
+    background-color: blue;
+    border-radius: 5px;
+}
+
+
+
+.main-banner{
+    background-image: url("../img/ap-dois.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 10rem;
+}
+
+.main-banner h1,
+.main-banner p{
+    color: rgb(248, 243, 243);
+    text-align: center;
+    font-weight: bold;
+    text-shadow: rgb(27, 26, 26) 3px 2px 3px;
+    font-size: 50px;
+background-color: rgba(0, 0, 0, 0.678);
+width: 60%;
+margin: auto; 
+
+
+}
+
+
+
+.services-container{
+    padding: 5rem 0;
+}
+
+.services-container ul{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.services-container li{
+    flex: 1 1 200px;
+    list-style: none;
+    text-align: center;
+    padding:20px;
+}
+
+.fas{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.fa-solid{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+
+.fa-person-military-rifle{
+    color:rgb(25, 40, 122);
+}
+
+.fa-comments{
+    color:rgb(19, 66, 19);
+}
+
+.services-container h3{
+    margin-bottom: 25px;
+}
+
+.services-container p{
+line-height: 24px;
+}
+
+
+
+.pricing-container{
+    padding-bottom: 5rem;
+text-align: center;
+}
+
+.pricing-container h2{
+    font-size: 36px;
+
+}
+
+.plans-container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 50px auto 0;
+}
+
+.plan{
+ flex:1;
+ max-width: 275px;  
+ margin: 0 20px; 
+}
+
+.plan ul{
+    padding: 0;
+}
+
+.plan li{
+    list-style: none;
+height: 50px;
+line-height: 50px ;
+background-color: #e6e6e6c4;
+color: rgb(11, 11, 12);
+}
+
+.plan .price{
+    width: 50px;
+    height: 100px;
+    border-radius: 30px;
+    color:rgb(17, 17, 17);
+    text-align: center;
+    line-height: 100px;
+margin: 0 auto -50px;
+font-size: 18px;
+position: relative;
+}
+
+
+.plan .plan-name{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(156, 55, 55);
+    padding: 50px 0;
+}
+
+.plan .plan-btn{
+    background-color:rgb(156, 55, 55);
+    color:rgb(250, 249, 249);
+    font-size: 19px;
+    height: 75px;
+    line-height: 75px;
+    cursor: pointer;
+
+}
+
+/* responsividade */
+
+/* Tablet 900*/
+@media (max-width:900px){
+    .plan .plan-name{
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: bold;
+        background-color: rgb(156, 55, 55);
+        padding: 50px 0;
+    }
+}
+
+
+/* celular 576px*/
+
+@media (max-width:576px){
+.nav-items{
+    font-size: 14px ;
+    position: absolute;
+    right: auto;
+    height: 200px;
+    line-height: 100px;
+    margin:0;
+display:inline-block;
+}
+
+.default-btn{
+    position: relative;
+    font-size: 12px ;
+    padding: 15px 20px;
+    background-color: blue;
+    border-radius: 5px;
+    margin-left: 300px;
+    top: -100px; 
+    left: 20px;
+}
+
+.main-banner h1{
+    color: rgb(248, 243, 243);
+    text-align: center;
+    font-weight: bold;
+    text-shadow: rgb(27, 26, 26) 3px 2px 3px;
+    font-size: 50px;
+background-color: rgba(14, 13, 13, 0.678);
+width: 60%;
+margin: auto; 
+
+}
+
+.main-banner p{
+    font-size: 15px;
+    text-align: center;
+    margin: auto;
+    width: 140%;
+    right: -20px;
+}
+
+
+
+.plan .plan-name{
+    text-transform:arial;
+    text-align:center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(156, 55, 55) ;
+    margin: auto;
+
+
+ 
+}
+
+
+
+
+.plan li{
+    list-style: none;
+    font-size: 14px;
+height: 50px;
+line-height: 70px ;
+background-color: #e6e6e6c4;
+color: rgb(0, 0, 0);
+width: 120%;
+
+}
+
+
+.plan-name li{
+    font-size: 14px;
+
+}
+
+.pricing-container p{
+   margin-bottom: 30px;
+   margin-top: 25px;
+
+
+}
+.plan .plan-name{
+    color:white;
+}
+
+
+
+.pricing-container h2{
+    font-size: 36px;
+    margin-top: 13px;
+
+}
+
+.pricing-container .pr{
+   font-style: helvetica;
+   font-weight: bold;
+
+}
+}
+
+
+/* celular 425px*/
+
+@media (max-width:425px){
+
+    .nav-items{
+        font-size: 9px;
+        flex-direction: column;
+     display:inline-block;
+     margin-left: -20px; 
+    }
+    
+    .default-btn {
+   
+            padding: 16px 21px;
+            background-color: blue;
+            color: white;
+            border-radius: 5px;
+            border-radius: 5px;
+            font-size: 9px;
+            margin-left: 200px;
+            
+            
+            
+        }
+        
+
+        .main-banner h1 {
+            position: relative;
+            color: rgb(248, 243, 243);
+    text-align: center;
+    font-weight: bold;
+    text-shadow: rgb(27, 26, 26) 3px 2px 3px;
+    font-size: 36px;
+    width: 200%;
+    left: -35px;
+   
+   
+        }
+        
+        .main-banner p{
+            position: relative;
+            font-size: 18px;
+            text-align: center;
+            margin: auto;
+            width: 200%;
+            right: -20px;
+            left: -35px;
+
+        }
+
+        .plan .plan-name{
+            color:white;
+        }
+
+
+     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
