@@ -167,8 +167,8 @@ text-align: center;
     list-style: none;
 height: 50px;
 line-height: 50px ;
-background-color: #e6e6e6c4;
-color: rgb(11, 11, 12);
+background-color: #e6e6e6;
+color: rgb(15, 13, 13);
 }
 
 .plan .price{
@@ -190,6 +190,7 @@ position: relative;
     font-weight: bold;
     background-color: rgb(156, 55, 55);
     padding: 50px 0;
+        color:white;
 }
 
 .plan .plan-btn{
@@ -201,6 +202,7 @@ position: relative;
     cursor: pointer;
 
 }
+
 
 /* responsividade */
 
@@ -333,7 +335,7 @@ width: 120%;
     
     .default-btn {
    
-            padding: 16px 21px;
+            padding: 15px 21px;
             background-color: blue;
             color: white;
             border-radius: 5px;
@@ -371,7 +373,7 @@ width: 120%;
         }
 
         .plan .plan-name{
-            color:white;
+            color:rgb(252, 252, 252);
         }
 
 
