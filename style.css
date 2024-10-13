@@ -380,6 +380,80 @@ width: 120%;
 
      
 }
+/* celular 400px*/
+
+@media (max-width:400px){
+
+    .nav-items{
+        font-size: 9px;
+        flex-direction: column;
+     display:inline-block;
+     margin-left: -20px; 
+    }
+    
+    .default-btn {
+   
+            padding: 10px 11px;
+            background-color: blue;
+            color: white;
+            border-radius: 5px;
+            border-radius: 5px;
+            font-size: 6px;
+            margin-left: 200px;
+            
+            
+            
+        }
+        
+
+        .main-banner h1 {
+            display: flex; 
+    gap: 2px;
+            color: rgba(238, 231, 231, 0.918);
+    text-align: center;
+    font-weight: bold;
+    text-shadow: rgb(15, 15, 15) 3px 2px 3px;
+    background-color: #181414f6 900%;
+    font-size:28px;
+    width: 200%;
+    left: -35px;
+   
+   
+        }
+        
+        .main-banner p{
+            position: relative;
+            font-size: 15px;
+            text-align: center;
+            margin: auto;
+            width: 200%;
+            right: -20px;
+            left: -35px;
+            margin-top: 50px;
+
+        }
+
+        .plan .plan-name{
+            color:white;
+        }
+        .plan .plan-btn{
+            background-color:rgb(156, 55, 55);
+            color:rgb(250, 249, 249);
+            font-size: 12px;
+            height: 75px;
+            line-height: 75px;
+            cursor: pointer;
+        
+        }
+
+     
+}
+
+
+
+
+
+
 
 
 
